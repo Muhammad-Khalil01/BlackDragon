@@ -20,6 +20,12 @@ body {
     float: left;
 }
 
+@media screen and (max-width: 615px) {
+    .name-of-logo{
+        display: none;
+    }
+}
+
 .logo {
     width: 60px;
     height: 60px;
@@ -89,6 +95,14 @@ body {
 
 #search001:focus {
     width: 300px;
+}
+
+.content6536{
+    display: none;
+}
+
+.user-image {
+    display: none;
 }
 
 @media screen and (max-width: 1500px) {
@@ -170,7 +184,6 @@ body {
     padding: 20px;
     transition: 0.2s ease-in-out;
     margin-left: 20px;
-    position: sticky;
 }
 
 .menu-1-0:hover {
@@ -178,14 +191,28 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1026px) {
-    .menu-1-0 {
-        margin-left: 0px;
+@media screen and (max-width: 1297px) {
+    .menu-1-0{
+        padding-left: 0px;
     }
 }
 
 
-@media screen and (max-width: 953px) {
+@media screen and (max-width: 1150px) {
+    .menu-1-0 {
+        padding: 10px;
+}
+}
+
+
+/* @media screen and (max-width: 1026px) {
+    .menu-1-0 {
+        margin-left: 0px;
+    }
+} */
+
+
+@media screen and (max-width: 1050px) {
     .menu-1 {
         display: none;
         display: inline;
@@ -211,7 +238,7 @@ body {
 
 /* Screen setting after 820px */
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 990px) {
     .menu-1 {
         display: none;
     }
@@ -265,7 +292,19 @@ body {
         width: 40px;
         height: 40px;
     }
+
+    .user-image{
+    display: inline; 
+    transition: 0.2s ease-in-out;
+    }
+    
+    .user-image:hover{
+        width: 39px;
+        height: 46px;
+    }
+    
 }
+
 
 @media screen and (max-width: 700) {
     
