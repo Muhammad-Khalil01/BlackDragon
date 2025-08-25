@@ -1,0 +1,52 @@
+.box {
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 25px;
+    height: 400px;
+    transition: 0.6s ease-in-out;
+}
+
+.imgbdr {
+    display: block;
+    width: 10%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .box {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        width: 80%;
+    }
+}
+
+.f2 {
+    /* border: 1px solid black; */
+    max-width: 250px;
+    margin: auto;
+}
+
+form [input] {
+    max-width: 250px;
+}
+
+p {
+    text-align: center;
+}
+
+.bot {
+    padding-top: 20px ;
+}
+
+.input1 {
+    margin-bottom: 20px;
+    max-width: 550px;
+}

@@ -150,6 +150,19 @@ body {
     background-color: white;
     border: hidden;
 }
+.shoping-cart231 {
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+    width: 60px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: white;
+    border: hidden;
+    display: none;
+}
+
+
 
 .shoping-cart:hover {
     cursor: pointer;
@@ -293,14 +306,13 @@ body {
         height: 40px;
     }
 
-    .user-image{
-    display: inline; 
-    transition: 0.2s ease-in-out;
+    .shoping-cart231 {
+        display: inline;
     }
-    
-    .user-image:hover{
-        width: 39px;
-        height: 46px;
+
+    .user-image {
+    display: inline;
+    transition: 0.2s ease-in-out;
     }
     
 }
